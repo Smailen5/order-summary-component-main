@@ -24,6 +24,10 @@ body .img-bg {
     object-fit: cover;
 }
 
+body .img-bg-mobile {
+    display: none;
+}
+
 .card-cnt {
     width: 400px;
     height: 650px;
@@ -112,4 +116,28 @@ button {
 
 main span:nth-child(5) {
     font-weight: 900;
+}
+
+/* ---------- Media query per smarphone ----------*/
+@media only screen and (max-width: 600px) {
+
+
+    body .img-bg:nth-child(1) {
+        display: none;
+    }
+
+    body .img-bg-mobile {
+        display: block;
+        position: absolute;
+        bottom: 250px;
+        z-index: -1;
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    .card-cnt {
+        width: 90%;
+        height: 90%;
+    }
 }
