@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
 }
 
 body {
@@ -14,8 +15,8 @@ body {
 }
 
 .card {
-    width: 350px;
-    height: 600px;
+    width: 400px;
+    height: 650px;
     background: white;
     border-radius: 15px;
 }
@@ -37,21 +38,39 @@ body {
     justify-content: center;
     flex-direction: column;
 }
-
+.section h1 {
+    font-size: 1.5em;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
 .section p {
-    width: 80%;
-    margin: 30px 0 40px 0;
+    width: 95%;
+    margin: 25px 0;
     text-align: center;
+    line-height: 25px;
+    color: hsl(224, 23%, 55%);
 }
 
 .cnt-max {
     width: 100%;
+    height: 80px;
     display: flex;
-    justify-content: space-around;
-    margin-bottom: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    /* background-color: hsl(225, 100%, 94%); */
+    background: red;
+    border-radius: 10px;
+    padding: 0 20px;
 }
 
 .container {
+    display: flex;
+    /* flex-direction: row;-------------- non serve */
+    gap: 10px
+    ;
+}
+.annual {
     display: flex;
     flex-direction: column;
 }
