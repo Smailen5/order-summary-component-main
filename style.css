@@ -11,7 +11,17 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url(/images/pattern-background-desktop.svg);
+    width: 100vw;
+    background-color: hsl(225, 100%, 95%);
+}
+
+body .img-bg {
+    position: absolute;
+    bottom: 250px;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
 }
 
 .card-cnt {
@@ -38,14 +48,17 @@ main {
     justify-content: center;
     flex-direction: column;
 }
+
 main span {
     color: hsl(224, 23%, 55%);
 }
+
 .section h1 {
     font-size: 1.5em;
     font-weight: 900;
     color: hsl(223, 47%, 23%);
 }
+
 .section p {
     width: 95%;
     margin: 25px 0;
@@ -65,25 +78,24 @@ main span {
     border-radius: 10px;
     padding: 0 20px;
 }
+
 .container a {
     font-weight: 700;
 }
 
 .content-container {
     display: flex;
-    /* flex-direction: row;-------------- non serve */
-    gap: 10px
-    ;
+    gap: 10px;
 }
+
 .date {
     display: flex;
     flex-direction: column;
 }
+
 .date span:nth-child(1) {
+    color: hsl(223, 47%, 23%);
     font-weight: 900;
-}
-.date span:nth-child(2) {
-    /* color: hsl(224, 23%, 55%); ---- cancella*/
 }
 
 button {
@@ -97,7 +109,7 @@ button {
     font-weight: 700;
     box-shadow: 10px 10px 10px hsl(225, 100%, 94%);
 }
+
 main span:nth-child(5) {
-    /* color: hsl(224, 23%, 55%); ---- cancella*/
     font-weight: 900;
 }
