@@ -68,5 +68,5 @@ Tutto il codice l'ho scritto da solo con l'ausilio di ChatGpt per il css. Usato 
 
 - Website - [Smailen](https://github.com/Smailen5)
 - Frontend Mentor - [@Smaylen5](https://www.frontendmentor.io/profile/Smailen5)
-- Linkedin - [@ysmailen](https://www.linkedin.com/in/smailen-vargas/)
+- Linkedin - [@smailen](https://www.linkedin.com/in/smailen-vargas/)
 
